@@ -4,8 +4,12 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-server": "webpack-dev-server"
-  },
+    "build:dev": "webpack",
+    "build:prod" : "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
+    "start": "node server/server.js",
+    "heroku-postbuild" : "yarn run build:prod"
+  }, 
   "keywords": [],
   "author": "Himanshu Jotwani",
   "license": "ISC",
@@ -25,5 +29,8 @@
     "validator": "8.0.0",
     "webpack": "3.1.0",
     "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.1"
   }
 }
