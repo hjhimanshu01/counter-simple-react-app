@@ -2,16 +2,17 @@
   "name": "scripts",
   "version": "1.0.0",
   "main": "app.js",
+  "engines": {
+    "node": "8.10.0",
+    "npm" : "3.5.2"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:dev": "webpack",
     "build:prod" : "webpack -p --env production",
     "dev-server": "webpack-dev-server",
     "start": "node server/server.js",
-    "heroku-postbuild" : "yarn run build:prod",
-    "engines": {
-      "node": "8.10.0",
-      "npm" : "3.5.2"}
+    "heroku-postbuild" : "yarn run build:prod"
+    
   }, 
   "keywords": [],
   "author": "Himanshu Jotwani",
