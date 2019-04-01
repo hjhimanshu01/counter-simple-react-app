@@ -1,15 +1,23 @@
-To install the dependencies of the project, use command :
+# Project Title
+
+Counter App
+
+# Tech Stack Used 
+
+Node , Javascript , Node Package Manager (npm) , ReactJS
+
+# Features
+
+State is considered to be an object consisting of an array of 3 different counters each managed separately.
+
+# commands to run the server locally :
 
 npm install
-
-Requirements : Node , Javascript , Node Package Manager (npm)
-
-Features:
-
- State is considered to be an object consisting of an array of 3 different counters each managed separately.
-
- commands to run the Server :
    
-   npm run dev-server
+npm run dev-server
    
-   server running on localhost:8080
+server live on localhost:8080
+
+# Heroku live app link
+
+https://counter-app-simple.herokuapp.com/
