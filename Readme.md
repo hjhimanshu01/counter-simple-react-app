@@ -10,7 +10,7 @@ Node , Javascript , Node Package Manager (npm) , ReactJS
 
 State is considered to be an object consisting of an array of 3 different counters each managed separately.
 
-# commands to run the server locally :
+# Commands to run the server locally :
 
 npm install
    
